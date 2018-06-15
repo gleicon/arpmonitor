@@ -1,0 +1,10 @@
+
+Gleicon S. Moraes - gleicon@terra.com.br
+
+0.4 - 09/2001 - Added promisc mode setting ( to use instead ifconfig promisc ), fixed some syslog errors, signal handling , log to syslog or stderr, command line options (see USAGE), network code cleanup.
+
+0.3 - 05/2001 - I found the tarball, cleaned some points and posted to fm
+
+08/1998 - Initial release
+
+

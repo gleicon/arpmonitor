@@ -1,0 +1,21 @@
+This is ARPMONITOR, a simple tool to trace arp requests from/to your machine.
+If you would like to monitor your network bus, or entire network ( if you dont use a switch or something like that ), just do a ifconfig <interface> PROMISC, to set the promiscuous mode of your network interface, and arpmonitor will automagically get all the traffic.
+I did arpmonitor to help me in a research, in 1998, about arp packets, delays between switches ports and so on. 
+NOTE: some var name and code was stolen from neped. since I didn`t suceed to contact the author, they are here...
+
+
+Gleicon S. Moraes - gleicon@gmail.com
+
+08/1998 - Initial release
+05/2001 - I found the tarball, cleaned some points and posted to fm
+09/2001 - Added promisc mode setting ( to use instead ifconfig promisc ), fixed some syslog errors, signal handling and command line options (see USAGE)
+06/2018 - Fixed compiling for modern linux, moved from SOCK_PACKET to SOCK_RAW, fixed promisc mode. Updated email after finding this tarball, uploaded to github.
+
+I am not maintaning it *actively* anymore, but, if you have a patch, or idea, drop me a line, I`ll try to implement/incorporate and maintain it useful.
+
+I am lazy !
+
+
+
+
+$version: 0.05

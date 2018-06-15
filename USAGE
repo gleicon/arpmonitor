@@ -1,0 +1,13 @@
+ArpMonitor - 0.04
+
+
+Usage mode:
+
+
+./arpmonitor -i <interface> -s|e -p
+
+-i <interface> , interface to check
+-s or -e , output: <s>yslog or std<e>rr
+-p setup promisc mode (auto clean on ctrl-C);
+
+

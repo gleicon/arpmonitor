@@ -1,0 +1,3 @@
+- Change the obsolete way to handle the packets. This code is old, date from 2.0.x times, and should be ok to port it, and maybe extend, to use the 2.4 resources and capabilities.
+
+
